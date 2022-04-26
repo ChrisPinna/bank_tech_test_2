@@ -3,7 +3,7 @@ class BankInterface {
 
   }
   printBankStatement() {
-    return 'date || credit || debit || balance\n26/04/2022 || 500.00 || || 1000.00';
+    return 'date || credit || debit || balance\n26/04/2022 || 1000.00 || || 1000.00';
   }
 }
 
