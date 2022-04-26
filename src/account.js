@@ -1,9 +1,12 @@
 class Account {
+  constructor() {
+    this.transactions = []
+  }
   makeTransaction() {
     this.#updateBalance()
   }
   getTransactions() {
-    return [];
+    return this.transactions;
   }
   #updateBalance() {
 
