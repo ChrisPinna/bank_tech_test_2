@@ -2,13 +2,17 @@ class Account {
   constructor() {
     this.transactions = []
   }
-  makeTransaction() {
-    this.#updateBalance()
+  makeTransaction(ammount) {
+    this.#updateBalance();
+    this.#saveTransaction();
   }
   getTransactions() {
     return this.transactions;
   }
   #updateBalance() {
+
+  }
+  #saveTransaction() {
 
   }
 }
